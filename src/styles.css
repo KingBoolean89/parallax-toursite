@@ -1,0 +1,57 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #696969;
+}
+.pimg, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.pimg{
+    background-image: url(./images/cityHall.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(./images/ohioTheatre.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(./images/night.jpg);
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: floralwhite;
+    color: #696969;
+}
+.section-lightdark{
+    background-color: #696969;
+    color:aliceblue;
+}
+.section-dark{
+    background-color: #282e34;
+    color:#ddd;
+}
+.pinfo{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #696969;
+    font-size: 27px;
+    letter-spacing: 8px;
+
+}
+.border{
+    background-color: maroon;
+}
